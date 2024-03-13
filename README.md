@@ -3,7 +3,7 @@
 ## Plantear el algoritmo para obtener los números primos hasta n, usando pseudocódigo y diagramas de flujo.
 
 #### Seudocódigo
-'
+``
 Inicio
   Leer n
   Para cada número desde 2 hasta n:
@@ -19,4 +19,4 @@ Inicio
     Imprimir el número
  Fin
 Fin
-'
+``
