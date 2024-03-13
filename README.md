@@ -12,6 +12,7 @@ Inicio
   Para cada divisor desde 2 hasta la raíz cuadrada de numero:
     Si numero es divisible entre divisor:
       Devolver Falso
+    sino:
       devolver verdadero
   Para cada divisor desde 2 hasta el número - 1:
         Romper el bucle
