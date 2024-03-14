@@ -21,15 +21,4 @@ Inicio
  Fin
 Fin
 ```
-flowchart TD
-    A(Inicio)-->B[numerp n]
-    B-->C[lista desde 2 hasta √n+1]
-    C-->D[i=2]
-    D-->E{ ¿i es primo? }
-    E-->|no| F[i ni es primo]
-    E-->|si| G[i es primo]
-    F-->H[i=i+1]
-    G-->H
-    H-->I{¿i<n?}
-    I-->|si| E
-    I-->|no| J(fin)
+![[https://www.mermaidchart.com/app/projects/85ee5dac-ac0d-4435-b381-5e74e00c1dd8/diagrams/f1b68877-8a67-405f-86ee-f3ce654d54cb/version/v0.1/edit](https://www.mermaidchart.com/app/projects/85ee5dac-ac0d-4435-b381-5e74e00c1dd8/diagrams/f1b68877-8a67-405f-86ee-f3ce654d54cb/version/v0.1/edit)](https://www.mermaidchart.com/app/projects/85ee5dac-ac0d-4435-b381-5e74e00c1dd8/diagrams/f1b68877-8a67-405f-86ee-f3ce654d54cb/version/v0.1/edit)
