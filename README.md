@@ -21,5 +21,18 @@ Inicio
  Fin
 Fin
 ```
-![Diagrama de flujo](https://www.mermaidchart.com/raw/f1b68877-8a67-405f-86ee-f3ce654d54cb?theme=dark&version=v0.1&format=svg)
+```mermaid
+flowchart TD
+    A(Inicio)-->B[numerp n]
+    B-->C[lista desde 2 hasta √n+1]
+    C-->D[i=2]
+    D-->E{ ¿i es primo? }
+    E-->|no| F[i ni es primo]
+    E-->|si| G[i es primo]
+    F-->H[i=i+1]
+    G-->H
+    H-->I{¿i<n?}
+    I-->|si| E
+    I-->|no| J
+```
 
