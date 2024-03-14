@@ -23,7 +23,7 @@ Fin
 ```
 ```mermaid
 flowchart TD
-    A(Inicio)-->B[numerp n]
+    A(Inicio)-->B[numero n]
     B-->C[lista desde 2 hasta √n+1]
     C-->D[i=2]
     D-->E{ ¿i es primo? }
@@ -31,8 +31,8 @@ flowchart TD
     E-->|si| G[i es primo]
     F-->H[i=i+1]
     G-->H
-    H-->I{¿i<n?}
+    H-->I{¿i < n?}
     I-->|si| E
-    I-->|no| J
+    I-->|no| J(fin)
 ```
 
