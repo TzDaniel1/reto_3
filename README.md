@@ -21,4 +21,5 @@ Inicio
  Fin
 Fin
 ```
-![[https://www.mermaidchart.com/app/projects/85ee5dac-ac0d-4435-b381-5e74e00c1dd8/diagrams/f1b68877-8a67-405f-86ee-f3ce654d54cb/version/v0.1/edit](https://www.mermaidchart.com/app/projects/85ee5dac-ac0d-4435-b381-5e74e00c1dd8/diagrams/f1b68877-8a67-405f-86ee-f3ce654d54cb/version/v0.1/edit)](https://www.mermaidchart.com/app/projects/85ee5dac-ac0d-4435-b381-5e74e00c1dd8/diagrams/f1b68877-8a67-405f-86ee-f3ce654d54cb/version/v0.1/edit)
+![Diagrama de flujo](https://www.mermaidchart.com/raw/f1b68877-8a67-405f-86ee-f3ce654d54cb?theme=dark&version=v0.1&format=svg)
+
