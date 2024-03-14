@@ -21,3 +21,15 @@ Inicio
  Fin
 Fin
 ```
+flowchart TD
+    A(Inicio)-->B[numerp n]
+    B-->C[lista desde 2 hasta √n+1]
+    C-->D[i=2]
+    D-->E{ ¿i es primo? }
+    E-->|no| F[i ni es primo]
+    E-->|si| G[i es primo]
+    F-->H[i=i+1]
+    G-->H
+    H-->I{¿i<n?}
+    I-->|si| E
+    I-->|no| J(fin)
